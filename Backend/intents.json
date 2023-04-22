@@ -1,0 +1,416 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Welcome"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "Welcome! How can I help you today?"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Thankyou"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "Morning",
+        "patterns": [
+          "GoodMorning",
+          "Good Morning",
+          "Morning"
+        ],
+        "responses": [
+          "Good morning! How can I help you today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "department",
+        "patterns": [
+          "Tell about the departments in Tamilnadu",
+          "What are the departments available?",
+          "What are the departments available in Tamilnadu?",
+          "departments available",
+          "departments in Tamilnadu",
+          "departments in TN"
+        ],
+        "responses": [
+          "Health and Family Welfare Department or School Education Departments"
+        ]
+      },
+      {
+        "tag": "schemes",
+        "patterns": [
+            "explain me some schemes",
+          "Schemes in Health and Family Welfare Department",
+          "Health and Family Welfare Department Schemes",
+          "What are the schemes available in Health and Family Welfare Department?",
+          "Schemes of Health and Family Welfare Department"],
+        "responses": [
+          "Janani Suraksha Yojana , Janani Shishu Suraksha Karyakram , Dr. Muthulakshmi Reddy Maternity Benefit Scheme (MRMBS) , Girl child protection scheme"
+        ]
+      },
+      {
+        "tag": "Janani Suraksha Yojana",
+        "patterns": [
+          "Tell about Janani Suraksha Yojana",
+          "Tell about JSY",
+          "what is Janani Suraksha Yojana scheme?",
+          "what is JSY?",
+          "About Janani Suraksha Yojana",
+          "Janani Suraksha Yojana",
+          "JSY"
+        ],
+        "responses": [
+          "Janani Suraksha Yojana (JSY) is a safe motherhood intervention scheme under the National Health Mission in India , It aims to reduce maternal and neonatal mortality by promoting institutional delivery among pregnant women, especially those who are poor and for more information visit https://www.nhm.tn.gov.in/en/nhm-programsrmncha/janani-shishu-suraksha-karyakram-jssk"
+        ]
+      },
+      {
+        "tag": "eligibility for Janani Suraksha Yojana",
+        "patterns": [
+          "Eligible for Janani Suraksha Yojana",
+          "Eligible for JSY",
+          "JSY Eligibility",
+          "Janani Suraksha Yojana Eligibility",
+          "who are Eligible for Janani Suraksha Yojana scheme?",
+          "who are eligible for JSY?"
+        ],
+        "responses": [
+          "Pregnant women who fall below the poverty line, whether in rural or urban areas, are eligible for Janani Suraksha Yojana"
+        ]
+      },
+      {
+        "tag": "Required documents for JSY",
+        "patterns": [
+          "Required documents for Janani Suraksha Yojana scheme",
+          "Required documents for JSY scheme",
+          "What are the documents required for Janani Suraksha Yojana scheme?",
+          "What are the documents required for JSY?",
+          "documents required for Janani Suraksha Yojana scheme",
+          "documents required for JSY",
+          "documents for Janani Suraksha Yojana scheme",
+          "documents for JSY",
+          "JSY documents",
+          "Janani Suraksha Yojana documents scheme"],
+        "responses": [
+          "Required documents for JSY scheme is Aadhar card , Address Proof, Bank passbook , Janani Suraksha Yojana card"
+        ]
+      },
+      {
+        "tag": "Apply for JSY",
+        "patterns": [
+          "How to apply for Janani Suraksha Yojana scheme ?",
+          "How to apply for JSY?",
+          "apply for Janani Suraksha Yojana scheme",
+          "apply for JSY",
+          "apply Janani Suraksha Yojana scheme ?",
+          "apply JSY",
+          "where to apply for Janani Suraksha Yojana scheme"
+        ],
+        "responses": [
+          "To apply for Janani Suraksha Yojana online by visiting the official website of JSY(https://nhm.gov.in/index1.php?lang=1&level=3&lid=309&sublinkid=841) or by visiting nearby public healthcare center , You will need to provide your RCH ID, category, applicant name, husband name, gender, Aadhaar number or virtual ID, date of birth, age, mobile number and other relevant information."
+        ]
+      },
+      {
+        "tag": "Benefits of JSY",
+        "patterns": [
+          "Benefits of JSY",
+          "Benifits of Janani Suraksha Yojana",
+          "Janani Suraksha Yojana benifits",
+          "JSY benifits",
+          "what are the benifits of Janani Suraksha Yojana scheme?",
+          "What are the benifits of JSY?"
+        ],
+        "responses": [
+          "Janani Suraksha Yojana provides cash assistance to eligible pregnant women who give birth in a government or accredited private health facility , The amount of financial assistance provided is Rs. 500/- per birth up to two live births for pregnant women who have attained 19 years of age and belong to the National Maternity Benefit Scheme (NMBS)."
+        ]
+      },
+      {
+        "tag": "link for JSY",
+        "patterns": [
+          "link to apply for Janani Suraksha Yojana scheme",
+          "link to apply for JSY",
+          "More information about Janani Suraksha Yojana scheme",
+          "More information about JSY",
+          "Janani Suraksha Yojana scheme link",
+          "JSY scheme link",
+          "JSY link"
+        ],
+        "responses": [
+          "visit https://nhm.gov.in/index1.php?lang=1&level=3&lid=309&sublinkid=841 to get more information about this scheme."  
+        ]
+      },
+      {
+        "tag": "JSSK",
+        "patterns": [
+          "Tell about Janani Shishu Suraksha Karyakram scheme",
+          "Tell about JSSK",
+          "what is Janani Shishu Suraksha Karyakram scheme?",
+          "what is JSSK?",
+          "About Janani Shishu Suraksha Karyakram scheme",
+          "About JSSK",
+          "Janani Shishu Suraksha Karyakram",
+          "JSSK"
+        ],
+        "responses": [
+          "The Government of India introduced the Janani Shishu Suraksha Karyakram (JSSK) programme, which grants all expectant mothers giving birth in public health facilities the right to an entirely free delivery, including a Caesarean section and The programme intends to remove out-of-pocket costs that expectant mothers and unwell babies suffer when utilising services at public health institutions."
+        ]
+      },
+      {
+        "tag": "eligibility for Janani Shishu Suraksha Karyakram",
+        "patterns": [
+          "Eligible for Janani Shishu Suraksha Karyakram",
+          "Eligible for JSSK",
+          "JSSK Eligibility",
+          "Janani Shishu Suraksha Karyakram Eligibility",
+          "who are Eligible for Janani Shishu Suraksha Karyakram?",
+          "who are eligible for JSSK?"
+        ],
+        "responses": [
+          "Pregnant women who belong to below poverty line households and are at least 19 years old are eligible for the Janani Shishu Suraksha Karyakram and The scheme aims to benefit pregnant women who access government health facilities."  
+        ]
+      },
+      {
+        "tag": "Required documents for JSSK",
+        "patterns": [
+          "Required documents for  Janani Shishu Suraksha Karyakram scheme",
+          "Required documents for JSSK scheme",
+          "What are the documents required for  Janani Shishu Suraksha Karyakram scheme?",
+          "What are the documents required for JSSK?",
+          "documents required for  Janani Shishu Suraksha Karyakram scheme",
+          "documents required for JSSK",
+          "documents for  Janani Shishu Suraksha Karyakram scheme",
+          "documents for JSSK",
+          "JSSK documents",
+          "Janani Shishu Suraksha Karyakram documents"],
+        "responses": [
+          "Required documents for JSSK scheme is Aadhar card , Address Proof, Bank passbook"
+        ]
+      },
+      {
+        "tag": "Apply for JSSK",
+        "patterns": [
+          "How to apply for  Janani Shishu Suraksha Karyakram?",
+          "How to apply for JSSK?",
+          "apply for Janani Shishu Suraksha Karyakram scheme",
+          "apply for JSSK",
+          "apply Janani Shishu Suraksha Karyakram scheme?",
+          "apply JSSK",
+          "where to apply for Janani Shishu Suraksha Karyakram scheme"
+        ],
+        "responses": [
+          "To apply for Janani Shishu Suraksha Karyakram online by visiting the official website of JSSK(https://www.nhm.tn.gov.in/en/nhm-programsrmncha/janani-shishu-suraksha-karyakram-jssk) or by visiting nearby public health centers and You will need to provide your name, husband name, gender, Aadhaar number or virtual ID, date of birth, age, mobile number and other relevant information."
+        ]
+      },
+      {
+        "tag": "Benefits of JSSK",
+        "patterns": [
+          "Benefits of JSSK",
+          "Benifits of Janani Shishu Suraksha Karyakram",
+          "Janani Shishu Suraksha Karyakram benifits",
+          "JSSK benifits",
+          "what are the benifits of Janani Shishu Suraksha Karyakram scheme?",
+          "What are the benifits of JSSK?"
+        ],
+        "responses": [
+          "An initiative called Janani Shishu Suraksha Karyakram (JSSK) aims to offer pregnant women, caesarean patients, and unwell newborns (up to 30 days after birth) totally free and cashless care in government health facilities in both rural and urban areas , All pregnant women who give birth at public health facilities are entitled to completely free deliveries, including caesarean sections, free drugs and supplies, free diagnostics, free blood donation, exemption from user fees, and free transportation from their homes to the facility."  
+        ]
+      },
+      {
+        "tag": "link for JSSK",
+        "patterns": [
+          "link to apply for Janani Shishu Suraksha Karyakram scheme",
+          "link to apply for JSSK",
+          "More information about Janani Shishu Suraksha Karyakram scheme",
+          "More information about JSSK",
+          "Janani Shishu Suraksha Karyakram scheme link",
+          "JSSK scheme link",
+          "JSSK link"
+        ],
+        "responses": [
+          "Visit https://www.nhm.tn.gov.in/en/nhm-programsrmncha/janani-shishu-suraksha-karyakram-jssk to get more information about this scheme."  
+        ]
+      },
+      {
+        "tag": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme (MRMBS)",
+        "patterns": [
+          "Tell about Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "Tell about MRMBS",
+          "what is Dr. Muthulakshmi Reddy Maternity Benefit Scheme?",
+          "what is MRMBS?",
+          "About Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "MRMBS"
+        ],
+        "responses": [
+          "The Dr. Muthulakshmi Reddy Maternity Benefit Scheme (MRMBS) is a programme that offers low-income expectant women cash support. The programme was renamed Dr. Muthulakshmi Reddy Maternity Benefit Program from National Maternity Benefit Scheme."  
+        ]
+      },
+      {
+        "tag": "eligibility for MRMBS",
+        "patterns": [
+          "Eligible for Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "Eligible for MRMBS",
+          "MRMBS Eligibility",
+          "Dr. Muthulakshmi Reddy Maternity Benefit Scheme Eligibility",
+          "who are Eligible for Dr. Muthulakshmi Reddy Maternity Benefit Scheme?",
+          "who are eligible for MRMBS?"
+        ],
+        "responses": [
+          "\\The pregnant mother should be of age 19 years and above , Should be a citizen of India and permanent resident of Tamil Nadu and Should have completed 19 yrs of age , The financial background of the pregnant woman should be below poverty line ."
+        ]
+      },
+      {
+        "tag": "Required documents for MRMBS",
+        "patterns": [
+          "Required documents for Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "Required documents for MRMBS scheme",
+          "What are the documents required for Dr. Muthulakshmi Reddy Maternity Benefit Scheme?",
+          "What are the documents required for MRMBS?",
+          "documents required for Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "documents required for MRMBS",
+          "documents for Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "documents for MRMBS",
+          "MRMBS documents",
+          "Dr. Muthulakshmi Reddy Maternity Benefit Scheme documents"],
+        "responses": [
+          "Required documents for MRMBS is Aadhar card , Address Proof, Bank passbook ,Voter ID or Ration card."
+        ]
+      },
+      {
+        "tag": "Apply for MRMBS",
+        "patterns": [
+          "How to apply for Dr. Muthulakshmi Reddy Maternity Benefit Scheme?",
+          "How to apply for MRMBS?",
+          "apply for Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "apply for MRMBS",
+          "apply Dr. Muthulakshmi Reddy Maternity Benefit Scheme ?",
+          "apply MRMBS",
+          "where to apply for Dr. Muthulakshmi Reddy Maternity Benefit Scheme"
+        ],
+        "responses": [
+          "To apply for Dr. Muthulakshmi Reddy Maternity Benefit Scheme, the pregnant mother should register her pregnancy before 12 weeks with the VHN / UHN or she should have pre-registration of pregnancy in PICME" 
+        ]
+      },
+      {
+        "tag": "Benefits of MRMBS",
+        "patterns": [
+          "Benefits of MRMBS",
+          "Benifits of Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "MRMBS benifits",
+          "what are the benifits of Dr. Muthulakshmi Reddy Maternity Benefit Scheme?",
+          "What are the benifits of MRMBS?"
+        ],
+        "responses": [
+          "Dr. Muthulakshmi Reddy Maternity Benefit Scheme provides financial assistance to poor pregnant mothers in India In accordance with the terms of the G.O.(Ms) No. 184 dated on 11.09, impoverished pregnant women are eligible to receive Rs. 1000/month for 6 months starting in the seventh month of pregnancy."
+        ]
+      },
+      {
+        "tag": "link for MRMBS",
+        "patterns": [
+          "link to apply for Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "link to apply for MRMBS",
+          "More information about Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+          "More information about MRMBS",
+          "Dr. Muthulakshmi Reddy Maternity Benefit Scheme link",
+          "MRMBS scheme link",
+          "MRMBS link"
+        ],
+        "responses": [
+          "Visit https://krishnagiri.nic.in/scheme/dr-muthulakshmi-maternity-benefit-scheme/ to get more information about this scheme."  
+        ]
+      },
+      {
+        "tag": "Girl child protection scheme",
+        "patterns": [
+          "Tell about Girl child protection scheme",
+          "what is Girl child protection scheme?",
+          "About Girl child protection scheme",
+          "Girl child protection scheme"
+        ],
+        "responses": [
+          "The Chief Minister's Girl Child Protection Scheme is aimed at preventing gender discrimination by empowering and protecting the rights of girl children through direct investment from the government and The Scheme's objectives are to increase girl students enrollment and attendance in school and to guarantee that they complete at least an intermediate level of education." 
+        ]
+      },
+      {
+        "tag": "eligibility for Girl child protection scheme",
+        "patterns": [
+          "Eligible for Girl child protection scheme",
+          "CM'S Girl child protection scheme Eligibility",
+          "Girl child protection scheme Eligibility",
+          "who are eligible for Girl child protection scheme?",
+          "who are all eligible for Girl child protection scheme?"
+        ],
+        "responses": [
+          "\\To be eligible for Chief Minister's Girl Child Protection Scheme, The girl child should appear for 10th standard public examination , The family should have two female child and no male child , The girl child must be enrolled in an educational institution" 
+        ]
+      },
+      {
+        "tag": "Required documents for Girl child protection scheme",
+        "patterns": [
+          "Required documents for Girl child protection scheme",
+          "What are the documents required for Girl child protection scheme?",
+          "documents required for Girl child protection scheme",
+          "documents for Girl child protection scheme",
+          "Girl child protection scheme documents"],
+        "responses": [
+          "Aadhar card , Bank passbook , Ration card , income certificate , Age certificate , Nativity Certificate"
+        ]
+      },
+      {
+        "tag": "Apply for Girl child protection scheme",
+        "patterns": [
+          "How to apply for Girl child protection scheme?",
+          "apply for Girl child protection scheme",
+          "apply Girl child protection scheme",
+          "where to apply for Girl child protection scheme?",
+          "Girl child protection scheme apply"
+        ],
+        "responses": [
+          "To apply for Chief Minister's Girl Child Protection Scheme, citizens can apply through eSeva or visit the district social welfare office and Applicants should apply with relevant documents such as Income Certificate, Nativity Certificate, No male child Certificate, Birth Certificate of Girl Childrens"  
+        ]
+      },
+      {
+        "tag": "Benefits of Girl child protection scheme",
+        "patterns": [
+          "Benifits of Girl child protection scheme",
+          "what are the benifits of Girl child protection scheme?",
+          "Girl child protection scheme benifits"
+        ],
+        "responses": [
+          "The Chief Minister's Girl Child Protection Program strives to ensure that all girls receive an education that is at least at the intermediate level and to encourage their enrollment and retention in school and The programme urges girls to wait until they are 18 years old before getting married."
+        ]
+      },
+      {
+        "tag": "link for Girl child protection scheme",
+        "patterns": [
+          "More information about Girl child protection scheme",
+          "Girl child protection scheme link"
+        ],
+        "responses": [
+          "https://chennai.nic.in/old-welfare/"  
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,9 @@
+nltk
+numpy
+torch
+pyngrok==4.1.1
+flask_ngrok
+ngrok authtoken "2MbT6ft3bDVHAVnCvSfGW5xrZNR_3BEUywuNRUaCgimkguy9G" 
+flask-cors
+easyocr
+tensorflow
